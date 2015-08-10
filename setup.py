@@ -13,5 +13,8 @@ setup(
     long_description=open("README.md").read(),
     install_requires=[
         "pymysql==0.5",
+    ],
+    tests_requires=[
+        "mock",
     ]
 )
