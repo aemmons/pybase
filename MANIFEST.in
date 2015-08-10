@@ -1,0 +1,2 @@
+include AUTHORS CHANGES LICENSE README
+recursive-exclude namespace *.pyc
