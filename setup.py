@@ -1,8 +1,9 @@
 from distutils.core import setup
+from namespace.pybase.version import __version__
 
 setup(
     name="pybase",
-    version="1.0.0",
+    version=__version__,
     author="Andrew Emmons",
     author_email="andrewcemmons@gmail.com",
     packages=["namespace", "namespace.pybase"],
